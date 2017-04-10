@@ -66,7 +66,7 @@ class Trainer
       right_answer = @number1 + @number2
       your_answer = STDIN.gets.to_i
 
-      feedback(right_answer, your_answer)
+      give_feedback(right_answer, your_answer)
 
       @counter += 1
      end
